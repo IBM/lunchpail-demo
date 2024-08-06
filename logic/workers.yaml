@@ -3,7 +3,6 @@ kind: Application
 metadata:
   name: lunchpail-demo
 spec:
-  api: workqueue
   role: worker
   code:
     - name: literal.sh
