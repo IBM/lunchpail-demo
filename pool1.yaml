@@ -3,7 +3,7 @@
 apiVersion: lunchpail.io/v1alpha1
 kind: WorkerPool
 metadata:
-  name: {{ print "test7f-pool" (add 1 .) }}
+  name: {{ print "pool" (add 1 .) }}
 spec:
   workers:
     count: {{ $.Values.workers | default 1 }}
